@@ -3,3 +3,4 @@ flask_sqlalchemy
 werkzeug
 flask_wtf
 flask_login
+vercel-wsgi

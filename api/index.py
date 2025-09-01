@@ -1,6 +1,8 @@
 from app import create_app
+from vercel_wsgi import handle
 
 flask_app = create_app()
 
-# Vercel isko `app` ke naam se dhundta hai
-app = flask_app
+# Vercel entry point
+def handler(request, response):
+    return handle(flask_app, request, response)

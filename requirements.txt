@@ -1,8 +1,5 @@
 flask
 flask_sqlalchemy
 werkzeug
-request
-render_template
-redirect
-url_for
-flash
+flask_wtf
+flask_login

@@ -1,5 +1,5 @@
 from app import create_app
-from vercel_wsgi import handle
+# from vercel_wsgi import handle
 
 flask_app = create_app()
 
